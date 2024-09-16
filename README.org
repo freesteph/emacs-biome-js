@@ -1,0 +1,20 @@
+* emacs-biome-js
+
+** Description
+
+A hacky integration of [[https://biomejs.dev/][BiomeJS]] and Emacs via a Flycheck backend and a
+format-on-save hook.
+
+I am not a talented Lisp hacker so this is very much a
+work-in-progress and everyone is strongly encouraged to
+contribute/provide feedback.
+
+** Usage
+
+#+begin_src elisp
+;; if you want the Flycheck backend
+(add-to-list 'flycheck-checkers 'biome)
+
+;; if you want the format-on-save-hook
+(add-hook 'js-mode-hook 'biome-js-autosave-mode)
+#+end_src
