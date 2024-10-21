@@ -1,5 +1,12 @@
 * emacs-biome-js
 
+**EDIT**: turns out people had already done a better job elsewhere: 
+
+- https://github.com/yadex205/emacs-biomejs-format
+- https://github.com/craneduck/flycheck-biomejs
+
+Hence why this repository is now archived.
+
 ** Description
 
 A hacky integration of [[https://biomejs.dev/][BiomeJS]] and Emacs via a Flycheck backend and a
